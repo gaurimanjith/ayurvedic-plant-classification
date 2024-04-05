@@ -1,2 +1,4 @@
 # ayurvedic-plant-classification
-A cnn based model to classify ayurvedic plants
+Plant Image Classification System with TensorFlow and Keras
+
+This project focuses on developing a robust plant image classification system using convolutional neural networks (CNNs) implemented with TensorFlow and Keras. The dataset, comprising images of various plant species, underwent preprocessing techniques such as resizing, rescaling, and data augmentation to enhance model performance. A CNN architecture, featuring convolutional and pooling layers, was deployed to extract intricate features from the input images. The model was trained using the Adam optimizer and Sparse Categorical Crossentropy loss function over 50 epochs with a batch size of 65, showcasing significant accuracy enhancements over the training period. Evaluation on a separate test dataset yielded an accuracy of [insert accuracy score], affirming the model's effectiveness. Visualization of training and validation accuracy using matplotlib provided insights into the model's learning progress. Finally, the trained model was successfully saved for future use, ensuring scalability and reusability of the system.
